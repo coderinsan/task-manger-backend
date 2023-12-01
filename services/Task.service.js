@@ -31,7 +31,7 @@ const GetAllTask = async()=>{
  
     const AllTask=  await TaskModel.find({})
      return {
-         msg:"Task Created",
+         msg:"Task Fetched",
          code: httpStatus.OK,
          success:true,
          AllTask,
